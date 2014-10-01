@@ -1,0 +1,36 @@
+{
+  "name": "wysiwyger",
+  "main": "wysiwyger.js",
+  "version": "0.3.0",
+  "homepage": "https://github.com/takashibagura/wysiwyger",
+  "authors": [
+    "takashibagura@gmail.com"
+  ],
+  "description": "Simple and customizable HTML wysiwyg editor engine.",
+  "keywords": [
+    "wysiwyger",
+    "wysiwyg",
+    "editor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.8.3"
+  },
+  "_release": "0.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.0",
+    "commit": "95a69979911baedf077dd19806e481b1f215f09c"
+  },
+  "_source": "git://github.com/takashibagura/wysiwyger.git",
+  "_target": "~0.3.0",
+  "_originalSource": "wysiwyger",
+  "_direct": true
+}

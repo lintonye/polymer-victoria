@@ -1,0 +1,33 @@
+<polymer-element name="my-counter">
+	<template>
+		<style>
+			.container {
+				float: left;
+				width: 150px;
+				text-align: center;
+				border: 1px solid #ccc;
+				padding: 20px 0;
+				margin-right: 30px;
+			}
+		</style>
+		<div class="container">
+			<div id="label"><content></content></div>
+			Value: <span id="count">{{counter}}</span><br />
+			<button id="inc" on-tap="{{increment}}">Increment</button>
+		</div>
+	</template>
+	
+	<script>
+		Polymer("my-counter", {
+			publish: {
+				counter: 0
+			},
+			increment: function() {
+				this.counter++;
+			},
+			counterChanged: function() {
+				console.log("counter: " + this.counter);
+			}
+		});
+	</script>
+</polymer-element>
